@@ -85,3 +85,7 @@ a:hover,
 a:active {
   color: red;
 }
+
+span {
+  color: red;
+}

@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.pagewrap {
+  display: flex;
+
+  /*vertically stack children*/
+  flex-direction: column;
+
+  /* expand to take full height of page */
+  /* min-height overrides both height & max-height */
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.sigma-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sigma-iframe {
+  flex-grow: 1;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+footer {
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "MudClub";
+  src: url(MudClub-FranklintheGoth.otf);
+}
+
+@font-face {
+  font-family: "CommitMono";
+  src: url(CommitMono-700-Regular.otf);
+}
+
+.MudClub {
+  font-family: "MudClub";
+  font-size: 3vw;
+}
+
+.CommitMono {
+  font-family: "CommitMono";
+  font-size: 0.75vw;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: red;
+}

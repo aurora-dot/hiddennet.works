@@ -71,12 +71,12 @@ footer {
 
 .MudClub {
   font-family: "MudClub";
-  font-size: 3vw;
+  font-size: 3em;
 }
 
 .CommitMono {
   font-family: "CommitMono";
-  font-size: 0.75vw;
+  font-size: 0.75em;
 }
 
 a:link,

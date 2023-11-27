@@ -1,11 +1,11 @@
 const container = document.getElementById("sigma-container");
 const graph = new graphology.Graph();
 
-graph.addNode("Praxis Society", {
+graph.addNode("praxis", {
   x: 10,
   y: 0,
   size: 3,
-  label: "Praxis Society",
+  label: "City of Praxis",
   color: "red",
 });
 

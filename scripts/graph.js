@@ -181,6 +181,8 @@ graph.addEdge("kallio", "abyssVoyeur");
 graph.addEdge("kallio", "pch");
 graph.addEdge("ada", "abyssVoyeur");
 graph.addEdge("ada", "pch");
+graph.addEdge("devi", "pch");
+graph.addEdge("bd", "pch");
 graph.addEdge("ada", "bd");
 graph.addEdge("devi", "bd");
 

@@ -63,7 +63,7 @@ graph.addNode("fang", {
   x: Math.random(),
   y: Math.random(),
   size: 10,
-  label: "Charlotte Fang",
+  label: "Charlotte Fang / Krishna Okhandiar",
   color: "red",
 });
 
@@ -107,11 +107,11 @@ graph.addNode("yoo", {
   color: "red",
 });
 
-graph.addNode("taxxpayermoney", {
+graph.addNode("abyssVoyeur", {
   x: Math.random(),
   y: Math.random(),
   size: 10,
-  label: "taxxpayermoney",
+  label: "abyssVoyeur",
   color: "red",
 });
 
@@ -139,6 +139,30 @@ graph.addNode("pch", {
   color: "red",
 });
 
+graph.addNode("ada", {
+  x: Math.random(),
+  y: Math.random(),
+  size: 10,
+  label: "Ada Rook",
+  color: "red",
+});
+
+graph.addNode("devi", {
+  x: Math.random(),
+  y: Math.random(),
+  size: 10,
+  label: "Devi McCallion",
+  color: "red",
+});
+
+graph.addNode("bd", {
+  x: Math.random(),
+  y: Math.random(),
+  size: 10,
+  label: "Black Dresses",
+  color: "red",
+});
+
 graph.addEdge("praxis", "joeyy");
 graph.addEdge("praxis", "thiel");
 graph.addEdge("joeyy", "hyde");
@@ -151,10 +175,14 @@ graph.addEdge("fang", "systemspace");
 graph.addEdge("joeyy", "prayingg");
 graph.addEdge("deathgrips", "prayingg");
 graph.addEdge("deathgrips", "yoo");
-graph.addEdge("taxxpayermoney", "yoo");
-graph.addEdge("viper", "taxxpayermoney");
-graph.addEdge("kallio", "taxxpayermoney");
+graph.addEdge("abyssVoyeur", "yoo");
+graph.addEdge("viper", "abyssVoyeur");
+graph.addEdge("kallio", "abyssVoyeur");
 graph.addEdge("kallio", "pch");
+graph.addEdge("ada", "abyssVoyeur");
+graph.addEdge("ada", "pch");
+graph.addEdge("ada", "bd");
+graph.addEdge("devi", "bd");
 
 console.log(Object.getOwnPropertyNames(graphologyLibrary));
 
